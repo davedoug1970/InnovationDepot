@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5548844E1792382000F1B8EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5548844D1792382000F1B8EA /* UIKit.framework */; };
+		554884501792382000F1B8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5548844F1792382000F1B8EA /* Foundation.framework */; };
+		554884521792382000F1B8EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 554884511792382000F1B8EA /* CoreGraphics.framework */; };
+		554884581792382000F1B8EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 554884561792382000F1B8EA /* InfoPlist.strings */; };
+		5548845A1792382000F1B8EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 554884591792382000F1B8EA /* main.m */; };
+		5548845E1792382000F1B8EA /* IDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5548845D1792382000F1B8EA /* IDAppDelegate.m */; };
+		554884601792382000F1B8EA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5548845F1792382000F1B8EA /* Default.png */; };
+		554884621792382000F1B8EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554884611792382000F1B8EA /* Default@2x.png */; };
+		554884641792382000F1B8EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554884631792382000F1B8EA /* Default-568h@2x.png */; };
+		554884671792382000F1B8EA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554884651792382000F1B8EA /* MainStoryboard.storyboard */; };
+		5548846A1792382000F1B8EA /* IDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554884691792382000F1B8EA /* IDViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5548844A1792382000F1B8EA /* InnovationDepot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InnovationDepot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5548844D1792382000F1B8EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5548844F1792382000F1B8EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		554884511792382000F1B8EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		554884551792382000F1B8EA /* InnovationDepot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InnovationDepot-Info.plist"; sourceTree = "<group>"; };
+		554884571792382000F1B8EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		554884591792382000F1B8EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5548845B1792382000F1B8EA /* InnovationDepot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InnovationDepot-Prefix.pch"; sourceTree = "<group>"; };
+		5548845C1792382000F1B8EA /* IDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDAppDelegate.h; sourceTree = "<group>"; };
+		5548845D1792382000F1B8EA /* IDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDAppDelegate.m; sourceTree = "<group>"; };
+		5548845F1792382000F1B8EA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		554884611792382000F1B8EA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		554884631792382000F1B8EA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		554884661792382000F1B8EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		554884681792382000F1B8EA /* IDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDViewController.h; sourceTree = "<group>"; };
+		554884691792382000F1B8EA /* IDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		554884471792382000F1B8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5548844E1792382000F1B8EA /* UIKit.framework in Frameworks */,
+				554884501792382000F1B8EA /* Foundation.framework in Frameworks */,
+				554884521792382000F1B8EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		554884411792382000F1B8EA = {
+			isa = PBXGroup;
+			children = (
+				554884531792382000F1B8EA /* InnovationDepot */,
+				5548844C1792382000F1B8EA /* Frameworks */,
+				5548844B1792382000F1B8EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5548844B1792382000F1B8EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5548844A1792382000F1B8EA /* InnovationDepot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5548844C1792382000F1B8EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5548844D1792382000F1B8EA /* UIKit.framework */,
+				5548844F1792382000F1B8EA /* Foundation.framework */,
+				554884511792382000F1B8EA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		554884531792382000F1B8EA /* InnovationDepot */ = {
+			isa = PBXGroup;
+			children = (
+				5548845C1792382000F1B8EA /* IDAppDelegate.h */,
+				5548845D1792382000F1B8EA /* IDAppDelegate.m */,
+				554884651792382000F1B8EA /* MainStoryboard.storyboard */,
+				554884681792382000F1B8EA /* IDViewController.h */,
+				554884691792382000F1B8EA /* IDViewController.m */,
+				554884541792382000F1B8EA /* Supporting Files */,
+			);
+			path = InnovationDepot;
+			sourceTree = "<group>";
+		};
+		554884541792382000F1B8EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				554884551792382000F1B8EA /* InnovationDepot-Info.plist */,
+				554884561792382000F1B8EA /* InfoPlist.strings */,
+				554884591792382000F1B8EA /* main.m */,
+				5548845B1792382000F1B8EA /* InnovationDepot-Prefix.pch */,
+				5548845F1792382000F1B8EA /* Default.png */,
+				554884611792382000F1B8EA /* Default@2x.png */,
+				554884631792382000F1B8EA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		554884491792382000F1B8EA /* InnovationDepot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5548846D1792382000F1B8EA /* Build configuration list for PBXNativeTarget "InnovationDepot" */;
+			buildPhases = (
+				554884461792382000F1B8EA /* Sources */,
+				554884471792382000F1B8EA /* Frameworks */,
+				554884481792382000F1B8EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InnovationDepot;
+			productName = InnovationDepot;
+			productReference = 5548844A1792382000F1B8EA /* InnovationDepot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		554884421792382000F1B8EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ID;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Innovation Depot";
+			};
+			buildConfigurationList = 554884451792382000F1B8EA /* Build configuration list for PBXProject "InnovationDepot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 554884411792382000F1B8EA;
+			productRefGroup = 5548844B1792382000F1B8EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				554884491792382000F1B8EA /* InnovationDepot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		554884481792382000F1B8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554884581792382000F1B8EA /* InfoPlist.strings in Resources */,
+				554884601792382000F1B8EA /* Default.png in Resources */,
+				554884621792382000F1B8EA /* Default@2x.png in Resources */,
+				554884641792382000F1B8EA /* Default-568h@2x.png in Resources */,
+				554884671792382000F1B8EA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		554884461792382000F1B8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5548845A1792382000F1B8EA /* main.m in Sources */,
+				5548845E1792382000F1B8EA /* IDAppDelegate.m in Sources */,
+				5548846A1792382000F1B8EA /* IDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		554884561792382000F1B8EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554884571792382000F1B8EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		554884651792382000F1B8EA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				554884661792382000F1B8EA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5548846B1792382000F1B8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5548846C1792382000F1B8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5548846E1792382000F1B8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InnovationDepot/InnovationDepot-Prefix.pch";
+				INFOPLIST_FILE = "InnovationDepot/InnovationDepot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5548846F1792382000F1B8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InnovationDepot/InnovationDepot-Prefix.pch";
+				INFOPLIST_FILE = "InnovationDepot/InnovationDepot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		554884451792382000F1B8EA /* Build configuration list for PBXProject "InnovationDepot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5548846B1792382000F1B8EA /* Debug */,
+				5548846C1792382000F1B8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5548846D1792382000F1B8EA /* Build configuration list for PBXNativeTarget "InnovationDepot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5548846E1792382000F1B8EA /* Debug */,
+				5548846F1792382000F1B8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 554884421792382000F1B8EA /* Project object */;
+}
