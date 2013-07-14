@@ -21,7 +21,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [[NSBundle mainBundle] loadNibNamed:@"MapImageView" owner:self options:nil];
-    [self.scrollView addSubview:self.mapView];
+    [self.scrollView addSubview:self.mapContainerView];
     self.scrollView.contentSize = CGSizeMake(self.mapView.frame.size.width,self.mapView.frame.size.height);
 }
 
@@ -53,7 +53,7 @@
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
 {
-    return self.mapView;
+    return self.mapContainerView;
 }
 
 - (void)scrollViewDidZoom:(UIScrollView *)scrollView {
@@ -78,6 +78,12 @@
     }
     
     self.mapView.frame = contentsFrame;
+}
+
+- (IBAction)roomClicked:(id)sender {
+    UIButton *button = (UIButton*)sender;
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Innovation Depot" message:button.titleLabel.text delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
 }
 
 @end

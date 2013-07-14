@@ -12,7 +12,7 @@
                         <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="TopLeft" translatesAutoresizingMaskIntoConstraints="NO" id="6vO-X4-JMX">
+                            <scrollView multipleTouchEnabled="YES" contentMode="TopLeft" translatesAutoresizingMaskIntoConstraints="NO" id="6vO-X4-JMX">
                                 <connections>
                                     <outlet property="delegate" destination="2" id="kws-iT-Htc"/>
                                 </connections>
