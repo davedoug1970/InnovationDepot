@@ -7,6 +7,7 @@
 //
 
 #import "IDViewController.h"
+#import <QuartzCore/QuartzCore.h>
 #define DEGREES_TO_RADIANS(angle) ((angle) / 180.0 * M_PI)
 
 @interface IDViewController ()
@@ -19,18 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    //UIImage *image = [UIImage imageNamed:@"firstfloor.png"];
-    //self.mapView = [[UIImageView alloc] initWithImage:image];
-    //self.mapView.frame = (CGRect){.origin=CGPointMake(0.0f, 0.0f), .size=image.size};
-
     [[NSBundle mainBundle] loadNibNamed:@"MapImageView" owner:self options:nil];
-    //self.mapView.transform = CGAffineTransformRotate(self.mapView.transform, DEGREES_TO_RADIANS(-90));
-
-    self.scrollView.frame = self.view.frame;
     [self.scrollView addSubview:self.mapView];
     self.scrollView.contentSize = CGSizeMake(self.mapView.frame.size.width,self.mapView.frame.size.height);
-    self.scrollView.zoomScale = 1;
-    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -42,10 +34,8 @@
     CGFloat minScale = MIN(scaleWidth, scaleHeight);
     self.scrollView.minimumZoomScale = minScale;
     
-    self.scrollView.maximumZoomScale = 1.0f;
-    //self.scrollView.zoomScale = minScale;
-    
-    [self.scrollView setZoomScale:minScale];
+    self.scrollView.maximumZoomScale = 1.0f;    
+    [self.scrollView setZoomScale:.3];
     
     [self centerScrollViewContents];
 }
@@ -56,19 +46,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (NSUInteger)supportedInterfaceOrientations
-{
-    return UIInterfaceOrientationMaskLandscape;
-}
-
 - (BOOL)shouldAutorotate
 {
-    if ([UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeLeft ||
-        [UIDevice currentDevice].orientation == UIDeviceOrientationLandscapeRight) {
-        return YES;
-    }
-    
-    return NO;
+    return YES;
 }
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView
