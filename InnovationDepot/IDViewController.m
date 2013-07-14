@@ -24,17 +24,19 @@
     //self.mapView.frame = (CGRect){.origin=CGPointMake(0.0f, 0.0f), .size=image.size};
 
     [[NSBundle mainBundle] loadNibNamed:@"MapImageView" owner:self options:nil];
-    self.mapView.transform = CGAffineTransformRotate(self.mapView.transform, DEGREES_TO_RADIANS(-90));
+    //self.mapView.transform = CGAffineTransformRotate(self.mapView.transform, DEGREES_TO_RADIANS(-90));
 
+    self.scrollView.frame = self.view.frame;
     [self.scrollView addSubview:self.mapView];
-    self.scrollView.contentSize = CGSizeMake(self.mapView.frame.size.width, self.mapView.frame.size.height);
+    self.scrollView.contentSize = CGSizeMake(self.mapView.frame.size.width,self.mapView.frame.size.height);
+    self.scrollView.zoomScale = 1;
     
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    CGRect scrollViewFrame = self.view.frame;
+    CGRect scrollViewFrame = self.scrollView.frame;
     CGFloat scaleWidth = scrollViewFrame.size.width / self.scrollView.contentSize.width;
     CGFloat scaleHeight = scrollViewFrame.size.height / self.scrollView.contentSize.height;
     CGFloat minScale = MIN(scaleWidth, scaleHeight);
