@@ -18,6 +18,9 @@
 		554884641792382000F1B8EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 554884631792382000F1B8EA /* Default-568h@2x.png */; };
 		554884671792382000F1B8EA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554884651792382000F1B8EA /* MainStoryboard.storyboard */; };
 		5548846A1792382000F1B8EA /* IDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554884691792382000F1B8EA /* IDViewController.m */; };
+		5548847217923D2400F1B8EA /* firstfloor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5548847017923D2400F1B8EA /* firstfloor.png */; };
+		5548847317923D2400F1B8EA /* secondfloor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5548847117923D2400F1B8EA /* secondfloor.png */; };
+		554884751792469D00F1B8EA /* MapImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554884741792469D00F1B8EA /* MapImageView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		554884661792382000F1B8EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		554884681792382000F1B8EA /* IDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDViewController.h; sourceTree = "<group>"; };
 		554884691792382000F1B8EA /* IDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDViewController.m; sourceTree = "<group>"; };
+		5548847017923D2400F1B8EA /* firstfloor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstfloor.png; sourceTree = "<group>"; };
+		5548847117923D2400F1B8EA /* secondfloor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secondfloor.png; sourceTree = "<group>"; };
+		554884741792469D00F1B8EA /* MapImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapImageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 				554884681792382000F1B8EA /* IDViewController.h */,
 				554884691792382000F1B8EA /* IDViewController.m */,
 				554884541792382000F1B8EA /* Supporting Files */,
+				554884741792469D00F1B8EA /* MapImageView.xib */,
 			);
 			path = InnovationDepot;
 			sourceTree = "<group>";
@@ -96,6 +103,8 @@
 		554884541792382000F1B8EA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5548847017923D2400F1B8EA /* firstfloor.png */,
+				5548847117923D2400F1B8EA /* secondfloor.png */,
 				554884551792382000F1B8EA /* InnovationDepot-Info.plist */,
 				554884561792382000F1B8EA /* InfoPlist.strings */,
 				554884591792382000F1B8EA /* main.m */,
@@ -164,6 +173,9 @@
 				554884621792382000F1B8EA /* Default@2x.png in Resources */,
 				554884641792382000F1B8EA /* Default-568h@2x.png in Resources */,
 				554884671792382000F1B8EA /* MainStoryboard.storyboard in Resources */,
+				5548847217923D2400F1B8EA /* firstfloor.png in Resources */,
+				5548847317923D2400F1B8EA /* secondfloor.png in Resources */,
+				554884751792469D00F1B8EA /* MapImageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

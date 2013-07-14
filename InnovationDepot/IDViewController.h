@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IDViewController : UIViewController
+@interface IDViewController : UIViewController <UIScrollViewDelegate>
+
+@property (nonatomic, strong) IBOutlet UIImageView *mapView;
+@property (nonatomic, weak) IBOutlet UIScrollView *scrollView;
+@property(nonatomic) CGFloat maximumZoomScale;
+@property(nonatomic) CGFloat minimumZoomScale;
 
 @end
