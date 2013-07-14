@@ -1,0 +1,8 @@
+
+*.xcworkspacedata
+
+*.xcuserstate
+
+*.xcscheme
+
+InnovationDepot.xcodeproj/xcuserdata/Dave.xcuserdatad/xcschemes/xcschememanagement.plist
