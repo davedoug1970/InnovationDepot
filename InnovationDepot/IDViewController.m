@@ -86,4 +86,25 @@
     [alert show];
 }
 
+- (IBAction)scrollViewDoubleTapped:(UITapGestureRecognizer*)recognizer {
+    // 1
+    CGPoint pointInView = [recognizer locationInView:self.mapContainerView];
+    
+    // 2
+    CGFloat newZoomScale = self.scrollView.zoomScale * 1.5f;
+    newZoomScale = MIN(newZoomScale, self.scrollView.maximumZoomScale);
+    
+    // 3
+    CGSize scrollViewSize = self.scrollView.bounds.size;
+    
+    CGFloat w = scrollViewSize.width / newZoomScale;
+    CGFloat h = scrollViewSize.height / newZoomScale;
+    CGFloat x = pointInView.x - (w / 2.0f);
+    CGFloat y = pointInView.y - (h / 2.0f);
+    
+    CGRect rectToZoomTo = CGRectMake(x, y, w, h);
+    
+    // 4
+    [self.scrollView zoomToRect:rectToZoomTo animated:YES];
+}
 @end
